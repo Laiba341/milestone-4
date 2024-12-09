@@ -1,0 +1,119 @@
+/* General styling for the form */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Very Light Gray */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #6b4226; /* Warm Mocha */
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff9f2; /* Light Cream */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #f4a261; /* Soft Peach */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    color: #e07a5f; /* Light Terracotta */
+    padding: 0 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #6b4226; /* Warm Mocha */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f6d7b0; /* Soft Peach Border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fffdf8; /* Lightest Peach */
+    color: #6b4226; /* Warm Mocha */
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #f4a261; /* Soft Peach */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e07a5f; /* Light Terracotta */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+/* Styling for the resume output */
+#resumeOutput {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff9f2; /* Light Cream */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #6b4226; /* Warm Mocha */
+}
+
+#resumeOutput h2, 
+#resumeOutput h3 {
+    color: #e07a5f; /* Light Terracotta */
+}
+
+#resumeOutput p {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+#resumeOutput .editable {
+    color: #6b4226; /* Warm Mocha */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#resumeOutput img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
